@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RemotePC</string>
+    <string name="action_settings">Settings</string>
+    <string name="rpc_menu">Select an RPC:</string>
+    <string name="rpc_volume">Change Volume</string>
+    <string name="rpc_brightness">Change Brightness</string>
+    <string name="rpc_pcLocker">Lock/Unlock PC</string>
+    <string name="rpc_youtube">YouTube Player</string>
+</resources>

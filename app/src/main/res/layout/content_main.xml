@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/rpc_menu"
+            android:textColor="@color/colorAccent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/volumeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textId"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/rpc_volume"
+            android:textColor="@color/primaryLight" />
+
+        <Button
+            android:id="@+id/brightnessButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/volumeButton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/rpc_brightness"
+            android:textColor="@color/primaryLight" />
+
+        <Button
+            android:id="@+id/pcLocker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/brightnessButton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/rpc_pcLocker"
+            android:textColor="@color/primaryLight" />
+
+        <Button
+            android:id="@+id/youtubeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pcLocker"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="7dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/rpc_youtube"
+            android:textColor="@color/primaryLight" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
